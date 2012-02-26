@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+** Copyright 2012 two forty four a.m. LLC <http://www.twofortyfouram.com>
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at <http://www.apache.org/licenses/LICENSE-2.0>
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License. 
+-->
+<resources>
+
+    <string name="app_name">Locale Bluetooth ACL Plug-in</string>
+    <string name="plugin_name">Bluetooth ACL</string>
+    <string name="list_connected">Connected</string>
+    <string name="list_disconnected">Disconnected</string>
+    <string name="blurb_connected">Connected</string>
+    <string name="blurb_disconnected">Disconnected</string>
+    <string name="warn_initial_state">
+        Important: this plug-in can only watch for changes, it can\'t ask
+        for the current state (there\'s no supported way to do that). So
+        if the device is already connected at setup or at reboot, we won\'t
+        know about it until you disconnect and reconnect.
+    </string>
+    <string name="no_devices">
+        Bluetooth must be on and your device must be paired before
+        configuring this plug-in.
+    </string>
+
+</resources>
