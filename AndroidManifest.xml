@@ -108,7 +108,7 @@
 
         <!-- Receive bluetooth connection state changes -->
         <receiver android:name=".receiver.BluetoothConnectionReceiver"
-            android:exported="false"
+            android:exported="true"
             android:process=":background">
             <intent-filter>
                 <action android:name="android.bluetooth.device.action.ACL_CONNECTED"/>
